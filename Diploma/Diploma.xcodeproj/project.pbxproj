@@ -13,9 +13,11 @@
 		6475C18B27E91E7000499D58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6475C18927E91E7000499D58 /* Main.storyboard */; };
 		6475C18D27E91E7300499D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6475C18C27E91E7300499D58 /* Assets.xcassets */; };
 		6475C19027E91E7300499D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6475C18E27E91E7300499D58 /* LaunchScreen.storyboard */; };
+		88050C75AFAB4625E3259257 /* Pods_Diploma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A91BF770474FA891E3C666 /* Pods_Diploma.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FC288457BF14ADE047DB085 /* Pods-Diploma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma.release.xcconfig"; path = "Target Support Files/Pods-Diploma/Pods-Diploma.release.xcconfig"; sourceTree = "<group>"; };
 		6475C18027E91E7000499D58 /* Diploma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diploma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6475C18327E91E7000499D58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6475C18527E91E7000499D58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		6475C18C27E91E7300499D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6475C18F27E91E7300499D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6475C19127E91E7300499D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76105BA67B887B8B933BF882 /* Pods-Diploma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma.debug.xcconfig"; path = "Target Support Files/Pods-Diploma/Pods-Diploma.debug.xcconfig"; sourceTree = "<group>"; };
+		D5A91BF770474FA891E3C666 /* Pods_Diploma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diploma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88050C75AFAB4625E3259257 /* Pods_Diploma.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				6475C18227E91E7000499D58 /* Diploma */,
 				6475C18127E91E7000499D58 /* Products */,
+				D780C9511DD2FE5CC6CE59C5 /* Pods */,
+				F0798C2503862B2A13BE08E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +98,24 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		D780C9511DD2FE5CC6CE59C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76105BA67B887B8B933BF882 /* Pods-Diploma.debug.xcconfig */,
+				5FC288457BF14ADE047DB085 /* Pods-Diploma.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0798C2503862B2A13BE08E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5A91BF770474FA891E3C666 /* Pods_Diploma.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6475C19427E91E7300499D58 /* Build configuration list for PBXNativeTarget "Diploma" */;
 			buildPhases = (
+				7587C30420959EC5FC660305 /* [CP] Check Pods Manifest.lock */,
 				6475C17C27E91E7000499D58 /* Sources */,
 				6475C17D27E91E7000499D58 /* Frameworks */,
 				6475C17E27E91E7000499D58 /* Resources */,
+				57EE8A1FBD0769B9C1C0D37F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +183,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57EE8A1FBD0769B9C1C0D37F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diploma/Pods-Diploma-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diploma/Pods-Diploma-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Diploma/Pods-Diploma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7587C30420959EC5FC660305 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diploma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6475C17C27E91E7000499D58 /* Sources */ = {
@@ -308,6 +377,7 @@
 		};
 		6475C19527E91E7300499D58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76105BA67B887B8B933BF882 /* Pods-Diploma.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -338,6 +408,7 @@
 		};
 		6475C19627E91E7300499D58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC288457BF14ADE047DB085 /* Pods-Diploma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
