@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		6475C18427E91E7000499D58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475C18327E91E7000499D58 /* AppDelegate.swift */; };
 		6475C18627E91E7000499D58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475C18527E91E7000499D58 /* SceneDelegate.swift */; };
-		6475C18827E91E7000499D58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475C18727E91E7000499D58 /* ViewController.swift */; };
+		6475C18827E91E7000499D58 /* ScheduleMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475C18727E91E7000499D58 /* ScheduleMainTableViewController.swift */; };
 		6475C18B27E91E7000499D58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6475C18927E91E7000499D58 /* Main.storyboard */; };
 		6475C18D27E91E7300499D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6475C18C27E91E7300499D58 /* Assets.xcassets */; };
 		6475C19027E91E7300499D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6475C18E27E91E7300499D58 /* LaunchScreen.storyboard */; };
+		6475C19C27EB95F800499D58 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475C19B27EB95F800499D58 /* ScheduleTableViewCell.swift */; };
+		6475C19F27EB9AEC00499D58 /* UITableView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475C19E27EB9AEC00499D58 /* UITableView + Extension.swift */; };
+		6475C1A227EB9B7900499D58 /* ReusableTableContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475C1A127EB9B7900499D58 /* ReusableTableContainerViewModel.swift */; };
+		6475C1A427EB9BC400499D58 /* ViewModelSettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475C1A327EB9BC400499D58 /* ViewModelSettable.swift */; };
+		6475C1A627EB9C1100499D58 /* ReusableTableContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475C1A527EB9C1100499D58 /* ReusableTableContainerCell.swift */; };
+		6475C1A827EB9DFD00499D58 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475C1A727EB9DFD00499D58 /* UIView + Extension.swift */; };
 		88050C75AFAB4625E3259257 /* Pods_Diploma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A91BF770474FA891E3C666 /* Pods_Diploma.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,11 +27,17 @@
 		6475C18027E91E7000499D58 /* Diploma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diploma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6475C18327E91E7000499D58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6475C18527E91E7000499D58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6475C18727E91E7000499D58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6475C18727E91E7000499D58 /* ScheduleMainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleMainTableViewController.swift; sourceTree = "<group>"; };
 		6475C18A27E91E7000499D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6475C18C27E91E7300499D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6475C18F27E91E7300499D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6475C19127E91E7300499D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6475C19B27EB95F800499D58 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		6475C19E27EB9AEC00499D58 /* UITableView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + Extension.swift"; sourceTree = "<group>"; };
+		6475C1A127EB9B7900499D58 /* ReusableTableContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableContainerViewModel.swift; sourceTree = "<group>"; };
+		6475C1A327EB9BC400499D58 /* ViewModelSettable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelSettable.swift; sourceTree = "<group>"; };
+		6475C1A527EB9C1100499D58 /* ReusableTableContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableContainerCell.swift; sourceTree = "<group>"; };
+		6475C1A727EB9DFD00499D58 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		76105BA67B887B8B933BF882 /* Pods-Diploma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma.debug.xcconfig"; path = "Target Support Files/Pods-Diploma/Pods-Diploma.debug.xcconfig"; sourceTree = "<group>"; };
 		D5A91BF770474FA891E3C666 /* Pods_Diploma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diploma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -63,12 +75,13 @@
 		6475C18227E91E7000499D58 /* Diploma */ = {
 			isa = PBXGroup;
 			children = (
+				6475C1A027EB9B6300499D58 /* Additional Elements */,
+				6475C19D27EB9ACA00499D58 /* Extensions */,
 				6475C19927E91F1A00499D58 /* ViewControllers */,
 				6475C19827E91F0C00499D58 /* Models */,
 				6475C19727E91EFA00499D58 /* Assets */,
 				6475C18327E91E7000499D58 /* AppDelegate.swift */,
 				6475C18527E91E7000499D58 /* SceneDelegate.swift */,
-				6475C18727E91E7000499D58 /* ViewController.swift */,
 				6475C18927E91E7000499D58 /* Main.storyboard */,
 				6475C19127E91E7300499D58 /* Info.plist */,
 			);
@@ -94,8 +107,37 @@
 		6475C19927E91F1A00499D58 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6475C19A27E9302F00499D58 /* ScheduleMainTableViewController */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6475C19A27E9302F00499D58 /* ScheduleMainTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6475C18727E91E7000499D58 /* ScheduleMainTableViewController.swift */,
+				6475C19B27EB95F800499D58 /* ScheduleTableViewCell.swift */,
+			);
+			path = ScheduleMainTableViewController;
+			sourceTree = "<group>";
+		};
+		6475C19D27EB9ACA00499D58 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6475C19E27EB9AEC00499D58 /* UITableView + Extension.swift */,
+				6475C1A727EB9DFD00499D58 /* UIView + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6475C1A027EB9B6300499D58 /* Additional Elements */ = {
+			isa = PBXGroup;
+			children = (
+				6475C1A127EB9B7900499D58 /* ReusableTableContainerViewModel.swift */,
+				6475C1A327EB9BC400499D58 /* ViewModelSettable.swift */,
+				6475C1A527EB9C1100499D58 /* ReusableTableContainerCell.swift */,
+			);
+			path = "Additional Elements";
 			sourceTree = "<group>";
 		};
 		D780C9511DD2FE5CC6CE59C5 /* Pods */ = {
@@ -104,7 +146,6 @@
 				76105BA67B887B8B933BF882 /* Pods-Diploma.debug.xcconfig */,
 				5FC288457BF14ADE047DB085 /* Pods-Diploma.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -231,9 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6475C18827E91E7000499D58 /* ViewController.swift in Sources */,
+				6475C18827E91E7000499D58 /* ScheduleMainTableViewController.swift in Sources */,
 				6475C18427E91E7000499D58 /* AppDelegate.swift in Sources */,
+				6475C1A627EB9C1100499D58 /* ReusableTableContainerCell.swift in Sources */,
+				6475C19C27EB95F800499D58 /* ScheduleTableViewCell.swift in Sources */,
+				6475C19F27EB9AEC00499D58 /* UITableView + Extension.swift in Sources */,
+				6475C1A227EB9B7900499D58 /* ReusableTableContainerViewModel.swift in Sources */,
 				6475C18627E91E7000499D58 /* SceneDelegate.swift in Sources */,
+				6475C1A427EB9BC400499D58 /* ViewModelSettable.swift in Sources */,
+				6475C1A827EB9DFD00499D58 /* UIView + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +433,7 @@
 				DEVELOPMENT_TEAM = 9VSVJURMZR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Diploma/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Станкин Расписание";
+				INFOPLIST_KEY_CFBundleDisplayName = "Станкин";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -417,7 +464,7 @@
 				DEVELOPMENT_TEAM = 9VSVJURMZR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Diploma/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Станкин Расписание";
+				INFOPLIST_KEY_CFBundleDisplayName = "Станкин";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
